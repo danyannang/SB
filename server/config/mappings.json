@@ -1,0 +1,44 @@
+{
+  "speechToText_apikey": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.apikey",
+      "file:/server/localdev-config.json:$.speechToText_apikey"
+    ]
+  },
+  "speechToText_iam_apikey_description": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.iam_apikey_description",
+      "file:/server/localdev-config.json:$.speechToText_iam_apikey_description"
+    ]
+  },
+  "speechToText_iam_apikey_name": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.iam_apikey_name",
+      "file:/server/localdev-config.json:$.speechToText_iam_apikey_name"
+    ]
+  },
+  "speechToText_iam_role_crn": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.iam_role_crn",
+      "file:/server/localdev-config.json:$.speechToText_iam_role_crn"
+    ]
+  },
+  "speechToText_iam_serviceid_crn": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.speechToText_iam_serviceid_crn"
+    ]
+  },
+  "speechToText_url": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.url",
+      "file:/server/localdev-config.json:$.speechToText_url"
+    ]
+  },
+  "speechToText_serviceInfo": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.serviceInfo",
+      "file:/server/localdev-config.json:$.speechToText_serviceInfo"
+    ]
+  }
+}

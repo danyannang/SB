@@ -1,0 +1,15 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: sb
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 128MB
+  domain: mybluemix.net
+  host: speechbetter
+  services:
+    - sb-speechtotext-1613782977125-69137
+  env:
+    OPTIMIZE_MEMORY: true
